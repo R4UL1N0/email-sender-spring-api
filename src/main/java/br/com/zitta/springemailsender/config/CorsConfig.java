@@ -14,7 +14,6 @@ public class CorsConfig {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration configuration = new CorsConfiguration();
-        configuration.addAllowedOrigin("http://127.0.0.1:5500");
         configuration.addAllowedOrigin("https://r4ul1n0.github.io/");
         configuration.addAllowedMethod("POST");
         configuration.addAllowedHeader("*");
